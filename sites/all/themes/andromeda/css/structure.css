@@ -60,11 +60,14 @@ body.not-front h1#page-title{
 }
 
 #sidebar .block h2{
+  text-transform:uppercase;
+  text-align:center;
   font-family: Verdana,Ubuntu;
   font-weight:bold;
   font-size:1.2em;
   color:blue;
   line-height:25px;
+  margin:5px 0;
   border-bottom:1px solid gray;
 }
 
@@ -307,22 +310,18 @@ img.image-space-left{
   color:#FFFFFF;
 }
 
-.block-menu {
+.block-menu, .block-views {
   background-color: #EEE;
   border-radius: 10px;
   border-top: 1px solid #AAA;
   border-left: 1px solid #AAA;
   box-shadow: 5px 5px 20px #888;
   padding: 1px 10px 1px 10px;
+  margin-bottom:15px;
 }
 
 .block-menu .content {
   font-size:1.1em;
-}
-
-.block-menu h2 {
-  text-align:center;
-  margin:5px 0;
 }
 
 /**

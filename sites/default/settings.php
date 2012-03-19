@@ -207,7 +207,7 @@ $databases = array (
     array (
       'database' => 'doantruong',
       'username' => 'root',
-      'password' => 'root',
+      'password' => '123456',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',

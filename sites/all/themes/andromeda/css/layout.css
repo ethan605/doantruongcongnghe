@@ -119,8 +119,8 @@ body.with-slideshow #header{
 }
 
 .region-content > div > .content {
-  margin: 10px;
-  padding-top: 10px;
+  /*margin: 10px;
+  padding-top: 10px;*/
 }
 
 .region-content > div > .content > .node {
