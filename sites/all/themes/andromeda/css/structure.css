@@ -9,8 +9,7 @@
 #breadcrumb{
   overflow:hidden;
   color:#818181;
-  font-size:18px;
-  margin-bottom: 10px;
+  font-size:11px;
 }
 
 #breadcrumb .breadcrumb{
@@ -40,7 +39,7 @@
  */
 h1#page-title{
   display:none;
-  font-family: Verdana,Ubuntu;
+  font-family: SansationLight;
   font-size: 30px;
   line-height: 30px;
   margin-top: 0;
@@ -56,19 +55,14 @@ body.not-front h1#page-title{
  * Sidebar blocks
  */ 
 #sidebar .block {
-  margin-bottom:20px;
+  margin-bottom:50px;
 }
 
 #sidebar .block h2{
-  text-transform:uppercase;
-  text-align:center;
-  font-family: Verdana,Ubuntu;
-  font-weight:bold;
-  font-size:1.2em;
-  color:blue;
-  line-height:25px;
-  margin:5px 0;
-  border-bottom:1px solid gray;
+  font-family: SansationLight;
+  font-weight:normal;
+  font-size:24px;
+  line-height:24px;
 }
 
 #sidebar .block .content ul{
@@ -77,18 +71,14 @@ body.not-front h1#page-title{
 }
 
 #sidebar .block .content ul li {
-  padding:7px;
+  padding:10px;
   border-bottom:1px solid #e7e7e7;
   background:url('../images/bullet-arrow.gif') no-repeat left 15px transparent;
   list-style:none outside none;
 }
 
 #sidebar .block .content ul li a.active{
-  /*text-decoration:underline;*/
-}
-
-#sidebar #block-search-form {
-  margin-bottom: 20px;
+  text-decoration:underline;
 }
 
 /**
@@ -110,7 +100,7 @@ body.not-front h1#page-title{
   padding-bottom: 10px;
   font-weight:normal;
   margin:0;
-  font-family: Verdana,Ubuntu;
+  font-family: SansationLight;
   font-size:16px;
   line-height:16px;
 }
@@ -308,20 +298,6 @@ img.image-space-left{
 .block-highlighted .content a{
   font-weight:bold;
   color:#FFFFFF;
-}
-
-.block-menu, .block-views {
-  background-color: #EEE;
-  border-radius: 10px;
-  border-top: 1px solid #AAA;
-  border-left: 1px solid #AAA;
-  box-shadow: 5px 5px 20px #888;
-  padding: 1px 10px 1px 10px;
-  margin-bottom:15px;
-}
-
-.block-menu .content {
-  font-size:1.1em;
 }
 
 /**

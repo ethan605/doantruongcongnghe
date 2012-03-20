@@ -4,7 +4,7 @@
  */
 
 #main-menu {
-  font-family: Verdana,Ubuntu;
+  font-family: SansationLight;
   height: 100px;
   line-height: 100px;
   margin-left: 500px;
@@ -68,7 +68,7 @@
  * Nice menus support
  */
 .block-nice-menus {
-  /*float:right;*/
+  float:right;
 }
 
 .logo-on-right .block-nice-menus {
@@ -81,17 +81,14 @@
 
 ul.nice-menu {
   border: medium none;
-  border-radius: 10px;
-  background: #EEE;
-  box-shadow: 0 10px 20px #888;
-  font-family: Verdana,Ubuntu;
+  font-family: SansationLight;
   height: 40px;
-  margin: 35px 0 25px 55px;
+  margin: 30px 0;
   z-index:1000;
 }
 
 ul.nice-menu li {
-  /*margin:0 0 0 15px;*/
+  margin:0 0 0 15px;
   border:none;
   background:none;
   list-style:none outside none;
@@ -103,21 +100,20 @@ ul.nice-menu li {
 }
 
 ul.nice-menu li a{
-  color: black;
+  color: #C0C0C0;
   text-decoration:none;
-  font-size:1em;
+  font-size:14px;
   display:block;
-  height:auto;
+  height:30px;
   line-height: 30px;
-  padding:5px 8px !important;
+  padding:5px 10px !important;
   margin:0;
   border-radius:5px;
 }
 
 ul.nice-menu li a:hover,
 ul.nice-menu li.over a{
-  background:rgba(0, 70, 255, 0.8);
-  color:white;
+  background:#111;
 }
 
 ul.nice-menu li.menuparent {
@@ -127,23 +123,17 @@ ul.nice-menu li.menuparent {
 
 ul.nice-menu li.menuparent ul {
   border:none;
-  background:rgba(0, 70, 255, 0.8);
-  margin-top:18px;
-  border-radius:7px;
-  /*padding:0 0 5px 0;*/
+  background:#111;
+  margin-top:14px;
+  border-radius:0 5px 5px 5px;
+  padding:0 0 10px 0;
 }
 
 ul.nice-menu li.menuparent ul li {
   padding:0;
   margin:0;
-  /*background:url("../images/double-line.gif") repeat-x scroll center bottom transparent;*/
+  background:url("../images/double-line.gif") repeat-x scroll center bottom transparent;
   list-style:none outside none;
-  width:15em;
-}
-
-ul.nice-menu li.menuparent ul li:hover {
-  background:rgb(0,70,255);
-  border-radius:7px;
 }
 
 ul.nice-menu li.over ul li a{
@@ -167,9 +157,8 @@ ul.nice-menu li.over ul li a {
   text-decoration:none;
   padding:0 10px;
   background:none;
-  line-height:20px;
 }
 
 ul.nice-menu li.over ul li a:hover {
-  /*text-decoration: underline;*/
+  text-decoration: underline;
 }

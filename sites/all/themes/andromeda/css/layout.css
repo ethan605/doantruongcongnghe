@@ -6,14 +6,13 @@ body{
   margin:0;
   padding: 0;
   color: #363636;
-  font-family: Verdana,Ubuntu;
+  font-family: Arial,Tahoma,Verdana;
   font-size: 12px;
-  background:url('../images/bg_with_logo.png') center no-repeat fixed #F5F5F5;
-  /*background:url('../images/bg_grid.gif') fixed #F5F5F5;*/
+  background:url('../images/bg-not-front.gif') no-repeat center top #F5F5F5;
 }
 
 body.with-slideshow {
-  /*background:url('../images/bg-pattern-t.gif') no-repeat center top #F5F5F5;*/
+  background:url('../images/bg-pattern-t.gif') no-repeat center top #F5F5F5;
 }
 
 body.toolbar-drawer {
@@ -32,21 +31,14 @@ body.with-slideshow #header{
 }
 
 #header .section{
-  background: url("../banner.png") center 0px no-repeat;
-  background-size: 940px 125px;
   width:940px;
-  height:125px;
   margin:0 auto;
-  /*padding-bottom: 10px;*/
+  height: 100px;
 }
 
 #site-logo-and-name {
   float: left;
   width: 500px;
-}
-
-#logo > img {
-  height: 120px;
 }
 
 #site-logo-and-name  #logo {
@@ -93,7 +85,7 @@ body.with-slideshow #header{
 #site-name a{
   color:#FFFFFF;
   text-decoration:none;
-  font-family: Verdana,Ubuntu;
+  font-family: SansationLight;
 }
 
 #site-name a:hover {
@@ -110,28 +102,13 @@ body.with-slideshow #header{
 }
 
 .region-header {
-  /*margin-left:400px;
+  margin-left:400px;
   height:100px;
   line-height:100px;
-  width:540px;*/
+  width:540px;
   z-index:1000;
-  padding: 110px 0 0 40px;
 }
 
-.region-content > div > .content {
-  /*margin: 10px;
-  padding-top: 10px;*/
-}
-
-.region-content > div > .content > .node {
-  border-radius: 10px;
-  border-top: 1px solid #AAA;
-  border-right: 1px solid #AAA;
-  padding: 10px;
-  background-color: #EEE;
-  box-shadow: -10px 10px 20px #888;
-  margin-bottom: 15px;
-}
 
 .logo-on-right .region-header {
   float:left;
@@ -143,13 +120,12 @@ body.with-slideshow #header{
  */
 #slideshow {
   background: url("../images/shadow.png") no-repeat scroll center bottom transparent;
-  background-size: 940px 100px;
   margin: 0 auto;
   overflow: hidden;
   padding-bottom: 50px;
-  /*float:left;*/
+  position: relative;
   width: 940px;
-  height: 300px;
+  height:400px;
 }
 
 #slideshow h2.block-title {
@@ -212,12 +188,10 @@ body.with-slideshow #main{
 .with-sidebar #content {
   float:left;
   width:600px;
-  margin-top: -20px;
 }
 
 .with-sidebar #sidebar {
-  margin-left:630px;
-  padding-top:10px;
+  margin-left:680px;
 }
 
 /**

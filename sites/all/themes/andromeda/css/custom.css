@@ -1,0 +1,232 @@
+/**
+ * @file
+ * Layout styling
+ */
+body, body.with-slideshow{
+  font-family: Verdana,Ubuntu;
+  background:url('../images/bg_with_logo.png') center no-repeat fixed #F5F5F5;
+}
+
+#header .section{
+  background: url("../images/banner.png") center 0px no-repeat;
+  background-size: 940px 125px;
+  height:125px;
+  margin:0 auto;
+}
+
+.region-header {
+  margin-left:0px;
+  height:auto;
+  line-height:auto;
+  width:auto;
+  padding: 110px 0 0 40px;
+}
+
+.region-content > div > h2 {
+  text-transform: uppercase;
+  border-bottom: 1px solid gray;
+  padding-bottom:5px;
+}
+
+.region-content > div > h2 > a {
+  color: blue;
+  text-decoration: none;
+}
+
+.region-content div .content {
+  font-size: 1.1em;
+}
+
+.region-content div .content .node {
+  border-radius: 10px;
+  border-top: 1px solid #AAA;
+  border-right: 1px solid #AAA;
+  padding: 10px;
+  background-color: #EEE;
+  box-shadow: -10px 10px 20px #888;
+  margin-bottom: 15px;
+}
+
+/**
+ * Banner
+ */
+#slideshow, #slider {
+  height: 300px;
+}
+
+.with-sidebar #content {
+  margin-top: -10px;
+}
+
+.with-sidebar #sidebar {
+  margin-left:630px;
+  padding-top:10px;
+}
+
+/**
+ * @file
+ * Form styling
+ */
+form .form-text,
+form .form-textarea{
+  font-family:Verdana,Ubuntu;
+}
+
+/**
+ * Search form
+ */
+form#search-block-form{
+  overflow:hidden;
+  margin-bottom:20px;
+}
+
+form#search-block-form .form-text{
+  border: 1px solid;
+  width: 265px;
+  border-radius:10px 0 10px 0px;
+  -moz-border-radius:10px 0 10px 0px;
+  -webkit-border-radius:10px 0 10px 0px;
+}
+
+form#search-block-form .form-submit{
+  background:url('../images/btn/btn-submit.custom.png') no-repeat center -5px;
+  background-size: 33px 37px;
+  width:31px;
+}
+
+/**
+ * @file
+ * Menu and Navigation styling
+ */
+
+#main-menu {
+  font-family: Verdana,Ubuntu;
+}
+
+/**
+ * Nice menus support
+ */
+.block-nice-menus {
+  float:left;
+}
+
+ul.nice-menu {
+  border-radius: 10px;
+  background: #EEE;
+  box-shadow: 0 10px 20px #888;
+  font-family: Verdana,Ubuntu;
+  margin: 35px 0 25px 55px;
+}
+
+ul.nice-menu li {
+  margin:0;
+}
+
+ul.nice-menu li a{
+  color: black;
+  font-size:1.2em;
+  height:auto;
+  padding:5px 8px !important;
+}
+
+ul.nice-menu li a:hover,
+ul.nice-menu li.over a{
+  background:rgba(0, 70, 255, 0.8);
+  color:white;
+}
+
+ul.nice-menu li.menuparent ul {
+  background:rgba(0, 70, 255, 0.8);
+  margin-top:18px;
+  border-radius:7px;
+  padding: 0;
+}
+
+ul.nice-menu li.menuparent ul li {
+  background: none;
+  width:15em;
+}
+
+ul.nice-menu li.menuparent ul li:hover {
+  background:rgb(0,70,255);
+  border-radius:7px;
+}
+
+ul.nice-menu li.over ul li a {
+  line-height:20px;
+}
+
+ul.nice-menu li.over ul li a:hover {
+  text-decoration:none;
+}
+
+/**
+ * @file
+ * HTML Element Styling
+ */
+body {
+  font : 11px/16px Verdana,Ubuntu
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Tahoma,Verdana,Ubuntu;
+}
+
+/**
+ * @file
+ * Contains styling for tabs, messages, ..etc
+ */
+#breadcrumb{
+  font-size:18px;
+  margin-bottom: 10px;
+}
+
+h1#page-title{
+  font-family: Verdana,Ubuntu;
+}
+
+#sidebar .block {
+  margin-bottom:20px;
+}
+
+#sidebar .block h2{
+  text-transform:uppercase;
+  text-align:center;
+  font-family: Verdana,Ubuntu;
+  font-weight:bold;
+  font-size:1.2em;
+  color:blue;
+  line-height:25px;
+  margin:5px 0;
+  border-bottom:1px solid gray;
+}
+
+#sidebar .block .content {
+  font-size: 1.1em;
+}
+
+#sidebar .block .content ul li {
+  padding:7px;
+}
+
+#sidebar .block .content ul li a {
+  text-decoration:none;
+}
+
+#sidebar #block-search-form {
+  margin-bottom: 20px;
+}
+
+.block-menu, .block-views {
+  background-color: #EEE;
+  border-radius: 10px;
+  border-top: 1px solid #AAA;
+  border-left: 1px solid #AAA;
+  box-shadow: 5px 5px 20px #888;
+  padding: 1px 10px 1px 10px;
+  margin-bottom:15px;
+}
+
+.block-menu .content {
+  font-size:1.1em;
+}

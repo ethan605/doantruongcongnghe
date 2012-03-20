@@ -21,7 +21,7 @@ form .form-textarea{
   padding:2px 5px;
   border-radius:5px;
   font-size:12px;
-  font-family:Verdana,Ubuntu;
+  font-family:Arial,Tahoma,Verdana;
   font-size:12px;
 }
 
@@ -59,21 +59,20 @@ form#search-block-form{
 }
 
 form#search-block-form .form-text{
-  border: 1px solid;
+  border: medium none;
   float: left;
   height: 18px;
   padding: 6px;
-  width: 265px;
-  border-radius:10px 0 10px 0px;
-  -moz-border-radius:10px 0 10px 0px;
-  -webkit-border-radius:10px 0 10px 0px;
+  width: 127px;
+  border-radius:5px 0 0 5px;
+  -moz-border-radius:5px 0 0 5px;
+  -webkit-border-radius:5px 0 0 5px;
   background:#FFFFFF;
 }
 
 form#search-block-form .form-submit{
   border:none;
-  background:url('../images/btn/btn-submit.png') no-repeat center transparent;
-  background-size: 33px 37px;
+  background:url('../images/btn/btn-submit.png') no-repeat 0 0 transparent;
   width:31px;
   height:30px;
   float:left;

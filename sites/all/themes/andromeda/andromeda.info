@@ -12,6 +12,7 @@ stylesheets[all][] = css/form.css
 stylesheets[all][] = css/font.css
 stylesheets[all][] = css/panel.css
 stylesheets[all][] = css/view.css
+stylesheets[all][] = css/custom.css
 stylesheets[all][] = css/nivo-slider.css
 
 scripts[] = js/jquery-1.7.1.min.js
