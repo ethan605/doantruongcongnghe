@@ -47,7 +47,9 @@ body, body.with-slideshow{
 
 .region-content > div > .content > .node,
 .region-content > div > .content > .view > .view-content > .views-row,
-.block-menu, .block-views {
+.block-menu, .region-slideshow .block-views,
+.region-content .block-views,
+.region-sidebar .block-views:not(#block-views-tieu-diem-block) {
   border-radius: 5px;
   border-top: 1px solid #AAA;
   border-right: 1px solid #AAA;
@@ -57,10 +59,31 @@ body, body.with-slideshow{
   margin-bottom: 15px;
 }
 
-.block-menu, .block-views {
+.block-menu, .region-slideshow .block-views,
+.region-content .block-views,
+.region-sidebar .block-views:not(#block-views-tieu-diem-block) {
   border-left: 1px solid #AAA;
   padding: 1px 10px 1px 10px;
   box-shadow: 5px 5px 5px #888;
+}
+
+#block-views-tieu-diem-block {
+  border: 1px solid #AAA;
+  box-shadow: 5px 5px 5px #888;
+  width: 270px;
+  height: 400px;
+}
+
+#block-views-noi-bat-block {
+  border: 1px solid #AAA;
+  width: 650px;
+  text-align: center;
+  font-size: 1.7em;
+  font-style: italic;
+}
+
+#block-views-noi-bat-block h2 {
+  display:none;
 }
 
 .region-content > .block-views > .content div .attachment {
@@ -270,7 +293,7 @@ h1#page-title {
   margin-bottom:20px;
 }
 
-#sidebar .block h2{
+#sidebar .block h2 {
   text-transform:uppercase;
   text-align:center;
   font-family: Verdana,Ubuntu;
