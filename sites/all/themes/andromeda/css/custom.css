@@ -70,8 +70,9 @@ body, body.with-slideshow{
 #block-views-tieu-diem-block {
   border: 1px solid #AAA;
   box-shadow: 5px 5px 5px #888;
-  width: 270px;
+  width: 260px;
   height: 400px;
+  margin-left: 5px;
 }
 
 #block-views-noi-bat-block {
