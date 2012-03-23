@@ -47,8 +47,8 @@ body, body.with-slideshow{
 
 .region-content > div > .content > .node,
 .region-content > div > .content > .view > .view-content > .views-row,
-.block-menu, .region-slideshow .block-views,
-.region-content .block-views,
+.region-slideshow .block-menu, .region-slideshow .block-views,
+.region-content .block-views, .region-sidebar .block-menu,
 .region-sidebar .block-views:not(#block-views-tieu-diem-block) {
   border-radius: 5px;
   border-top: 1px solid #AAA;
@@ -59,7 +59,7 @@ body, body.with-slideshow{
   margin-bottom: 15px;
 }
 
-.block-menu, .region-slideshow .block-views,
+.region-sidebar .block-menu, .region-slideshow .block-menu,
 .region-content .block-views,
 .region-sidebar .block-views:not(#block-views-tieu-diem-block) {
   border-left: 1px solid #AAA;
@@ -87,11 +87,41 @@ body, body.with-slideshow{
   display:none;
 }
 
+#block-menu-menu-footer-credit h2 {
+  display: none;
+}
+
+#footer .section {
+  padding: 10px 0 0 0;
+}
+
+#footer .block {
+  width: 940px;
+  height: 30px;
+  float: none;
+  text-align: center;
+  margin: 0;
+}
+
+#footer .block-menu {
+  margin-left: 340px;
+}
+
+#footer .block .content ul li {
+  background: none;
+  float: left;
+  padding: 0 5px 0 0;
+}
+
 .region-content > .block-views > .content div .attachment {
   border-bottom: 1px dashed;
 }
 
-.region-content > .block-views > .content div .attachment .content .field-name-field-image {
+/*.region-content .view-content .field-name-field-teaser-image {
+  text-align: center;
+}*/
+
+.region-content .field-name-field-teaser-image {
   float: left;
   margin-right: 10px;
 }
