@@ -3,7 +3,7 @@
  * Layout styling
  */
 body, body.with-slideshow{
-  font-family: Verdana,Ubuntu;
+  font-family: Arial,Ubuntu;
   background:url('../images/bg_with_logo.png') center no-repeat fixed #F5F5F5;
 }
 
@@ -29,7 +29,7 @@ body, body.with-slideshow{
 }
 
 .region-content > div > h2 > a {
-  color: blue;
+  color: #0088cc;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ body, body.with-slideshow{
 }
 
 .node > .content a {
-  color: blue;
+  color: #0088cc;
 }
 
 .region-content > div > .content > .node,
@@ -50,33 +50,28 @@ body, body.with-slideshow{
 .region-slideshow .block-menu, .region-slideshow .block-views,
 .region-content .block-views, .region-sidebar .block-menu,
 .region-sidebar .block-views:not(#block-views-tieu-diem-block) {
-  border-radius: 5px;
-  border-top: 1px solid #AAA;
-  border-right: 1px solid #AAA;
+  border-radius: 3px;
+  border: 1px solid #DDD;
   padding: 10px;
-  background-color: whitesmoke;
-  box-shadow: -5px 5px 5px #888;
+  background-color: #fbfbfb;
   margin-bottom: 15px;
 }
 
 .region-sidebar .block-menu, .region-slideshow .block-menu,
 .region-content .block-views,
 .region-sidebar .block-views:not(#block-views-tieu-diem-block) {
-  border-left: 1px solid #AAA;
-  padding: 1px 10px 1px 10px;
-  box-shadow: 5px 5px 5px #888;
+  padding: 1px 10px 0px 10px;
 }
 
 #block-views-tieu-diem-block {
-  border: 1px solid #AAA;
-  box-shadow: 5px 5px 5px #888;
+  border: 1px solid #DDD;
   width: 260px;
   height: 400px;
   margin-left: 5px;
 }
 
 #block-views-noi-bat-block {
-  border: 1px solid #AAA;
+  border: 1px solid #DDD;
   width: 650px;
   text-align: center;
   font-size: 1.7em;
@@ -91,13 +86,33 @@ body, body.with-slideshow{
   display: none;
 }
 
+#footer {
+  background: none;
+}
+
 #footer .section {
-  padding: 10px 0 0 0;
+  background: url("../images/bg_footer.jpg");
+  border-radius: 4px 4px 0 0;
+  padding: 0 0 10px 0;
+}
+
+#footer .section,
+#footer .block .content a {
+  color: #444;
+}
+
+#footer .block .content a.active {
+  color: whitesmoke;
+}
+
+#footer .block .content ul li a:hover {
+  color: #444;
+  text-decoration: none;
 }
 
 #footer .block {
   width: 940px;
-  height: 30px;
+  height: 20px;
   float: none;
   text-align: center;
   margin: 0;
@@ -132,8 +147,7 @@ body, body.with-slideshow{
 #slideshow, #slider {
   width: 950px;
   height: 300px;
-  background-size: 600px 140px;
-  background-position: left bottom;
+  background:none;
 }
 
 #slideshow .block-andromeda-slideshow {
@@ -147,7 +161,6 @@ body, body.with-slideshow{
 
 #slideshow .block-menu {
   margin: 0 10px 0 670px;
-  box-shadow: 0px 5px 5px #888;
 }
 
 #slideshow .block-menu .content ul {
@@ -163,11 +176,11 @@ body, body.with-slideshow{
   list-style:none outside none;
 }
 
-#slideshow .block .content ul li a {
+.block .content ul li a {
   text-decoration: none;
 }
 
-#slideshow .block .content ul li a:hover {
+.block .content ul li a:hover {
   text-decoration: underline;
 }
 
@@ -176,7 +189,7 @@ body, body.with-slideshow{
 }
 
 .with-sidebar #content {
-  margin-top: -10px;
+  margin: -10px 0 10px 0;
   width: 650px;
 }
 
@@ -192,7 +205,7 @@ body, body.with-slideshow{
  */
 form .form-text,
 form .form-textarea{
-  font-family:Verdana,Ubuntu;
+  font-family:Arial,Ubuntu;
 }
 
 /**
@@ -204,11 +217,11 @@ form#search-block-form{
 }
 
 form#search-block-form .form-text{
-  border: 1px solid;
+  border: 1px solid #bcbcbc;
   width: 225px;
-  border-radius:10px 0 10px 0px;
-  -moz-border-radius:10px 0 10px 0px;
-  -webkit-border-radius:10px 0 10px 0px;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
 }
 
 form#search-block-form .form-submit{
@@ -223,7 +236,7 @@ form#search-block-form .form-submit{
  */
 
 #main-menu {
-  font-family: Verdana,Ubuntu;
+  font-family: Arial,Ubuntu;
 }
 
 /**
@@ -234,34 +247,40 @@ form#search-block-form .form-submit{
 }
 
 ul.nice-menu {
-  border-radius: 5px;
-  background: whitesmoke;
-  box-shadow: 0 5px 5px #888;
-  font-family: Verdana,Ubuntu;
+  border-radius: 3px;
+  border: 1px solid #DDD;
+  background: #fbfbfb;
+  font-family: Arial,Ubuntu;
   margin: 35px 0 25px 0;
   width: 930px;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 ul.nice-menu li {
-  margin:0 8px;
+  margin:0 4px;
 }
 
 ul.nice-menu li a{
-  color: black;
+  color: #0088cc;
   font-size:1.2em;
   height:auto;
   padding:5px 8px !important;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 ul.nice-menu li a:hover,
 ul.nice-menu li.over a{
-  background:rgba(0, 70, 255, 0.8);
+  background:#3a87ad;
   color:white;
 }
 
+ul.nice-menu > li > a:hover {
+  text-decoration: none;
+}
+
 ul.nice-menu li.menuparent ul {
-  background:rgba(0, 70, 255, 0.8);
+  background:#3a87ad;
   margin-top:20px;
   border-radius:5px;
   padding: 0;
@@ -273,16 +292,21 @@ ul.nice-menu li.menuparent ul li {
 }
 
 ul.nice-menu li.menuparent ul li:hover {
-  background:rgb(0,70,255);
+  text-decoration:underline;
   border-radius:5px;
 }
 
 ul.nice-menu li.over ul li a {
   line-height:20px;
+  text-transform: none;
 }
 
 ul.nice-menu li.over ul li a:hover {
   text-decoration:none;
+}
+
+#nice-menu-1 li a:hover {
+  text-decoration: none;
 }
 
 /**
@@ -290,11 +314,11 @@ ul.nice-menu li.over ul li a:hover {
  * HTML Element Styling
  */
 body {
-  font : 11px/16px Verdana,Ubuntu
+  font : 11px/16px Arial,Ubuntu
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: Tahoma,Verdana,Ubuntu;
+  font-family: Arial,Ubuntu;
 }
 
 /**
@@ -308,7 +332,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1#page-title {
-  font-family: Verdana, Ubuntu;
+  font-family: Arial, Ubuntu;
   margin-top: 15px;
 }
 
@@ -327,10 +351,10 @@ h1#page-title {
 #sidebar .block h2 {
   text-transform:uppercase;
   text-align:center;
-  font-family: Verdana,Ubuntu;
+  font-family: Arial,Ubuntu;
   font-weight:bold;
   font-size:1.2em;
-  color:blue;
+  color:#0088cc;
   line-height:25px;
   margin:5px 0;
   border-bottom:1px solid gray;
@@ -346,11 +370,11 @@ h1#page-title {
   background-position: left center;
 }
 
-#sidebar .block .content ul li a {
-  text-decoration: none;
+#sidebar .block .content ul li a.active {
+  text-decoration:none;
+  font-weight:bold;
 }
 
-#sidebar .block .content ul li a:hover {
-  text-decoration: underline;
+#block-menu-menu-related-links .content ul li a:hover {
+  color: #08C;
 }
-
